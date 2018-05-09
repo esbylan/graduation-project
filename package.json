@@ -1,0 +1,29 @@
+{
+  "name": "project_calculator",
+  "version": "1.0.0",
+  "description": "基于web平台的四则运算练习系统，该四则运算练习系统基于web平台，包括生成四则运算题目功能、验证用户结果是否正确功能、用户管理（用户注册、登录等）功能、“倒计时”功能（在规定时间内完成的题目数及正确率统计）、用户练习排行榜功能（按正确率、耗时等）、题目难易程度分级、挑战升级等功能。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanesby/Project_Calculator.git"
+  },
+  "author": "esby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanesby/Project_Calculator/issues"
+  },
+  "homepage": "https://github.com/lanesby/Project_Calculator#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.13.4",
+    "multer": "^1.3.0"
+  }
+}
